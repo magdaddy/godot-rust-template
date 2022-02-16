@@ -1,8 +1,14 @@
 [package]
-name = "godot-rust-template"
+name = "{{project-name}}"
 version = "0.1.0"
 edition = "2021"
+authors = ["{{authors}}"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[lib]
+crate-type = ["cdylib"]
+
 [dependencies]
+gdnative = { git = "https://github.com/godot-rust/godot-rust.git" }
+anyhow = "1.0"
