@@ -1,0 +1,4 @@
+[template]
+exclude = [
+    "justfile"
+]
