@@ -3,7 +3,7 @@ _default:
 
 godot_exec := "/Applications/Godot.app/Contents/MacOS/Godot"
 godot_proj_dir := "godot"
-default_scene := ""
+default_scene := "Scene.tscn"
 
 build:
   cargo build
