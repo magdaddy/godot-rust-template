@@ -7,8 +7,9 @@ godot_exec := "/Applications/Godot.app/Contents/MacOS/Godot"
 godot_proj_dir := "godot"
 default_scene := "Scene.tscn"
 project_name := `echo $PROJECT_NAME`
-dylib := "lib" + project_name + ".dylib"
-gdnlib := project_name + ".gdnlib"
+crate_name := `echo $CRATE_NAME`
+dylib := "lib" + crate_name + ".dylib"
+gdnlib := crate_name + ".gdnlib"
 
 build:
   cargo build

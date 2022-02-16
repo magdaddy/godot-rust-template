@@ -1,6 +1,6 @@
 [entry]
 
-OSX.64="res://lib{{project-name}}.dylib"
+OSX.64="res://lib{{crate_name}}.dylib"
 
 [dependencies]
 

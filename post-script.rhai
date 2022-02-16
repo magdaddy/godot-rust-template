@@ -1,0 +1,1 @@
+file::delete("godot/{{crate_name}}.gdnlib");

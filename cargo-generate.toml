@@ -1,4 +1,5 @@
 [template]
-exclude = [
-    "justfile"
-]
+exclude = ["justfile"]
+
+[hooks]
+post = ["post-script.rhai"]
